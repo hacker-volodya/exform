@@ -6,7 +6,7 @@
 
 ## Пример формы:
 
-    <form action="contactme.php" data-success="Мы вам перезвоним!" data-error="Произошла ошибка, попробуйте позже" method="POST">
+    <form class="contactme" action="contactme.php" data-success="Мы вам перезвоним!" data-error="Произошла ошибка, попробуйте позже" method="POST">
       <input type="hidden" name="comment" value="Перезвонить"/>
 
       <div class="form-group">
