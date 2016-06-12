@@ -10,11 +10,11 @@
       <input type="hidden" name="comment" value="Перезвонить"/>
 
       <div class="form-group">
-        <input class="form-control" type="text" placeholder="Имя"/>
+        <input name="name" class="form-control" type="text" placeholder="Имя"/>
       </div>
       
       <div class="form-group">
-        <input class="form-control" type="tel" placeholder="Телефон"/>
+        <input name="phone" class="form-control" type="tel" placeholder="Телефон"/>
       </div>
       
       <div class="info-success" style="display: none;"></div>
