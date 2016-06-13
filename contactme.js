@@ -32,5 +32,6 @@ function contact(e, pointer) {
                 form.find('.info-error').show();
             }
         }
-    })
+    });
+    return false;
 }
