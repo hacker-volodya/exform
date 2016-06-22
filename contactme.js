@@ -21,6 +21,7 @@ function contact(e, pointer) {
         data: form.serialize(),
         cache: false,
         success: function () {
+            form.trigger("contact-success");
             if (form.data('success') !== undefined) {
             	form.find('.info-error').hide();
                 form.find('.info-success').show();
